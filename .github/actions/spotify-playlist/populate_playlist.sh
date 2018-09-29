@@ -1,7 +1,7 @@
 #!/bin/sh
 
-SPOTIFY_ACCESS_TOKEN=$( ./get_access_token.sh )
-payload=$( ./process_playlist.sh )
+SPOTIFY_ACCESS_TOKEN=$( /get_access_token.sh )
+payload=$( /process_playlist.sh )
 
 # Replace a Playlist's Tracks
 # https://developer.spotify.com/documentation/web-api/reference/playlists/replace-playlists-tracks/
