@@ -2,7 +2,7 @@
 
 glue=""
 tracks=""
-for trackid in $( cut -f 1 -d , playlist.csv | cut -f 5 -d / )
+for trackid in $( cut -f 1 -d , ${GITHUB_WORKSPACE}/playlist.csv | cut -f 5 -d / )
 do
   tracks="${tracks}${glue}\"spotify:track:${trackid}\""
   glue=","
