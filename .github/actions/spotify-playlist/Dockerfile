@@ -4,4 +4,4 @@ RUN apk add --no-cache curl jq
 
 COPY . /
 
-ENTRYPOINT ["/process_playlist.sh"]
+ENTRYPOINT ["/populate_playlist.sh"]
