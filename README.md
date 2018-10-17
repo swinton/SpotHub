@@ -1,4 +1,4 @@
-# SpotifyHub
+# SpotHub
 
 Collaborate on Spotify playlists using GitHub :headphones: :relaxed:
 
