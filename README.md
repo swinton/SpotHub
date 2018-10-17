@@ -1,10 +1,10 @@
 # SpotHub
 
-Collaborate on Spotify playlists using GitHub :headphones: :relaxed:
+> Collaborate on Spotify playlists using GitHub :headphones: :relaxed:
 
-## How does this work?
+## How does this even work?
 
-Using [**GitHub Actions**](https://github.com/features/actions).
+Using [**GitHub Actions**](https://github.com/features/actions) of course!
 
 On every `push` to the `master` branch, [the Action](https://github.com/swinton/SpotHub/blob/bc2d697744a710bce3ce6a56a10d473045c3ea53/.github/actions/spotify-playlist/Dockerfile) will:
 
