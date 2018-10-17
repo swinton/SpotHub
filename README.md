@@ -21,6 +21,8 @@ On every `push` to the `master` branch, [the Action](https://github.com/swinton/
 
 ## Why was this built?
 
-Because I :heart: Spotify and GitHub, and now I can bring 2 of my favorite things together with [GitHub Actions](https://github.com/features/actions).
+So we can [collaborate on playlists the right way](https://github.com/swinton/SpotHub/pull/1) :wink:
+
+Also, because I :heart: Spotify and GitHub, and now I can bring 2 of my favorite things together with [GitHub Actions](https://github.com/features/actions).
 
 Sign up for the GitHub Actions beta [here](https://github.com/features/actions) :headphones: :relaxed:
