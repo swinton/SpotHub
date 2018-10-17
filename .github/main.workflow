@@ -6,7 +6,7 @@ workflow "Make playlist" {
 }
 
 action "Default Branch Filter" {
-  uses = "actions/bin/filter@9dceb5d"
+  uses = "actions/bin/filter@master"
   args = "branch master"
 }
 
