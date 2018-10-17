@@ -1,6 +1,6 @@
 # SpotHub
 
-> Collaborate on Spotify playlists using GitHub :headphones: :relaxed:
+> Collaborate on Spotify playlists using Pull Requests :headphones: :relaxed:
 
 ## How does this even work?
 
