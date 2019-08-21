@@ -1,0 +1,18 @@
+on: push
+name: Make playlist
+jobs:
+  defaultBranchFilter:
+    name: Default Branch Filter
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Default Branch Filter
+      uses: actions/bin/filter@master
+      with:
+        args: branch master
+    - name: Release Playlist
+      uses: ./.github/actions/spotify-playlist
+      env:
+        SPOTIFY_AUTH: ${{ secrets.SPOTIFY_AUTH }}
+        SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        playlist_id: 5lNXObovv3WL1Ioyag2FuG
